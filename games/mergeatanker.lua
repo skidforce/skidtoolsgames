@@ -6,8 +6,8 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 
 local GAME_NAME = "Merge a Tank"
-local DISCORD_INVITE = "https://discord.gg/ehKVq7pf7v"
-local RSCRIPTS_LINK = "https://rscripts.net/@Ouroboros"
+local DISCORD_INVITE = "https://discord.gg/HhFJujPbvp"
+local RSCRIPTS_LINK = "https://rscripts.net/@SkidTools"
 
 local repo = "https://raw.githubusercontent.com/joustingmatch/ObsidianUltra/main/"
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
@@ -322,7 +322,7 @@ local function fireEquipBest()
 end
 
 local Window = Library:CreateWindow({
-    Title = "Ouroboros Hub",
+    Title = "SkidTools",
     Footer = {
         { Text = DISCORD_INVITE, Copyable = true },
         "|",
@@ -471,7 +471,7 @@ SocialsGroup:AddButton({
     end,
 })
 
-local AdGroup = Tabs.Info:AddLeftGroupbox("Ouroboros Hub", "sparkles")
+local AdGroup = Tabs.Info:AddLeftGroupbox("SkidTools", "sparkles")
 
 AdGroup:AddLabel("Every script in the hub is keyless. No key systems, no checkpoints, no linkvertise.", true)
 AdGroup:AddLabel("The Discord has ready made configs, dupe methods, giveaways, and early access to new scripts.", true)
@@ -969,8 +969,8 @@ end)
 ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 
-ThemeManager:SetFolder("OuroborosHub")
-SaveManager:SetFolder("OuroborosHub/MergeATank")
+ThemeManager:SetFolder("SkidTools")
+SaveManager:SetFolder("SkidTools/MergeATank")
 
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ "MenuKeybind" })
