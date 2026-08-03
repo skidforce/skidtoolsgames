@@ -365,7 +365,7 @@ local Tabs = {
 
 local Options = Library.Options
 
-local DISCORD_INVITE = "https://discord.gg/f3dJhDgyTq"
+local DISCORD_INVITE = "https://discord.gg/HhFJujPbvp"
 local copyToClipboard = setclipboard or toclipboard or set_clipboard or (writeclipboard)
 
 local function addDiscordButton(tab)
@@ -504,8 +504,8 @@ InterfaceManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 SaveManager:IgnoreThemeSettings()
 
-InterfaceManager:SetFolder("ArenaAutoFarm")
-SaveManager:SetFolder("ArenaAutoFarm/config")
+InterfaceManager:SetFolder("SkidTools")
+SaveManager:SetFolder("SkidTools/survive-zombie-arena")
 
 InterfaceManager:BuildInterfaceSection(Tabs.Settings)
 SaveManager:BuildConfigSection(Tabs.Settings)
