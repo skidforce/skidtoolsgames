@@ -12,7 +12,7 @@ local UpgradeConfig = require(Directories.UpgradeConfig)
 local StarShopConfig = require(Directories.StarShopConfig)
 
 local GAME_NAME = "Merge a Black Hole"
-local DISCORD_INVITE = "https://discord.gg/ehKVq7pf7v"
+local DISCORD_INVITE = "https://discord.gg/HhFJujPbvp"
 
 local HoleService = Knit.GetService("HoleService")
 local ShieldService = Knit.GetService("ShieldService")
@@ -122,7 +122,7 @@ local Toggles = Library.Toggles
 local Options = Library.Options
 
 local Window = Library:CreateWindow({
-    Title = "Ouroboros Hub",
+    Title = "skidtools",
     Footer = DISCORD_INVITE .. " | " .. GAME_NAME,
     Icon = 18657887261,
     NotifySide = "Right",
@@ -463,8 +463,8 @@ end)
 ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 
-ThemeManager:SetFolder("OuroborosHub")
-SaveManager:SetFolder("OuroborosHub/merge-a-black-hole")
+ThemeManager:SetFolder("SkidTools")
+SaveManager:SetFolder("SkidTools/merge-a-black-hole")
 
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ "MenuKeybind" })
