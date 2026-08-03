@@ -3,5 +3,5 @@
 Ouroboros Loader 
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/Ouroboros/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skidforce/skidtoolsgames/refs/heads/main/loader.lua"))()
 ```
