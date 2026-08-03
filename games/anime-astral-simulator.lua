@@ -351,7 +351,7 @@ local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 local Options = ObsidianLibrary.Options
 local Toggles = ObsidianLibrary.Toggles
 
-local DISCORD_INVITE = "https://discord.gg/ehKVq7pf7v"
+local DISCORD_INVITE = "https://discord.gg/HhFJujPbvp"
 
 local Worlds = {}
 for _, world in ipairs(WorldConfig:GetAllWorlds()) do
@@ -1308,7 +1308,7 @@ MenuGroup:AddToggle("AutoHideUI", {
 })
 
 local ToggleGui = Instance.new("ScreenGui")
-ToggleGui.Name = "OuroborosToggle"
+ToggleGui.Name = "SkidtoolsToggle"
 ToggleGui.ResetOnSpawn = false
 ToggleGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ToggleGui.DisplayOrder = 999
@@ -2015,8 +2015,8 @@ end)
 ThemeManager:SetLibrary(ObsidianLibrary)
 SaveManager:SetLibrary(ObsidianLibrary)
 
-ThemeManager:SetFolder("OuroborosHub")
-SaveManager:SetFolder("OuroborosHub/astral-simulator")
+ThemeManager:SetFolder("SkidTools")
+SaveManager:SetFolder("SkidTools/astral-simulator")
 
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ "MenuKeybind" })
