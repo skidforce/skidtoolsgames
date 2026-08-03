@@ -2,7 +2,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-local BASE = 'https://raw.githubusercontent.com/skidtoolsgames/Ouroboros/main/games/'
+local BASE = 'https://raw.githubusercontent.com/skidforce/skidtoolsgames/main/games/'
 
 local games = {
     [9190691]    = 'anime-squadron.lua',
